@@ -27,4 +27,4 @@ jobs:
       run: script/bootstrap
 
     - name: Tests
-      run: script/test
+      run: script/test .github/workflows/tests.yml
